@@ -397,7 +397,8 @@ label {
   top: 30px;
   left: 20px;
 }
-.block-writing-anchor {
+
+.block-writing a {
   background-color: transparent;
   border-radius: 30px;
   color: white;
@@ -408,11 +409,6 @@ label {
   left: 20px;
   top: 100px;
   width: 100px;
-}
-
-.block-writing h3 {
-  color: white;
-  margin-bottom: 90px;
 }
 
 .block-ux {

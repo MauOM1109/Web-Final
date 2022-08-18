@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -44,9 +44,8 @@
                 <span>Teléfono:</span> 
                 <span>64017050</span> 
               </p>
-                <p><span>Correo electrónico:</span>
-                <li><a href="#">mauricio-1109@hotmail.com</a></li>
-              </p>
+                <p><span>Correo electrónico:</span></p>
+                <a href="#">mauricio-1109@hotmail.com</a>
             <form>
               <div>
                 <label for="input-apellido">Nombre</label>
@@ -59,7 +58,12 @@
               </div>
               <div>
                 <label for="input-contact">Motivo de contacto</label>
-                <input autocomplete="name" id="input-contact" type="text" />
+                <select required id="place">
+                  <option>Trabajo</option>
+                  <option>Información</option>
+                  <option>Referencia</option>
+                  <option>Otro</option>
+                </select>
               <div>
                 <label for="email">Email</label>
                 <input

@@ -6,7 +6,7 @@ let signouno= ""
 let signodos= ""
 let compatibilidad = ""
 
- if(dia_signo_uno >=22 && mes1 == 12 ||dia_signo_uno <= 20 && mes1 == 01){
+if(dia_signo_uno >=22 && mes1 == 12 ||dia_signo_uno <= 20 && mes1 == 01){
   signouno = "capricornio"
   alert("capricornio") }
 
